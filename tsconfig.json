@@ -23,11 +23,15 @@
       "@/*": [
         "src/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "./types" 
+    ]
   },
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "types"
   ],
   "lib": [
     "esnext"
