@@ -6,7 +6,6 @@ const rules = require('./webpackRules');
 module.exports = {
   mode: 'development',
   entry: './src/renderer.tsx',
-  target: 'electron-renderer',
   devtool: 'source-map',
   devServer: {
     static: path.join(__dirname, 'bin'), // /renderer.js'),
