@@ -1,6 +1,6 @@
 FROM node:16 as base
 
-WORKDIR /logicsim
+WORKDIR /undefined
 COPY package*.json ./
 
 RUN npm install --legacy-peer-deps
