@@ -1,6 +1,6 @@
 module.exports = {
   resource: {
-    test: /\.png/,
+    test: /\.png|\.jpe{0,1}g/,
     type: 'asset/resource',
   },
   inline: {
