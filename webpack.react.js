@@ -10,7 +10,6 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, 'bin'), // /renderer.js'),
     compress: true,
-
     port: 9000,
   },
   resolve: {
