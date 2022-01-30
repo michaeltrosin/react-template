@@ -24,7 +24,7 @@
     "concurrently": "^7.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.5.1",
-    "eslint": "^8.3.0",
+    "eslint": "^8.8.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
@@ -48,6 +48,7 @@
     "webpack-dev-server": "^4.4.0"
   },
   "scripts": {
+    "serve": "webpack serve",
     "build": "webpack",
     "dev": "webpack serve --mode=development"
   },

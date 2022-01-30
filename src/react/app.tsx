@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import pepega from 'asset/pepega.jpg';
+import pepega from '@asset/pepega.jpg';
 
 class App extends Component<any, any> {
     render(): JSX.Element {
